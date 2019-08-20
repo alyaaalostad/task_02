@@ -9,4 +9,4 @@ def home(request):
 
 
 	}
-	return render(request, "task2.html")
+	return render(request,"task2.html", context)
